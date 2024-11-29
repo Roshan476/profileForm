@@ -1,0 +1,171 @@
+.upc{
+    padding: 1px 1px 1px 1px;
+    border: 2px solid #f2f3f5;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+.gradiant{
+    background-image:linear-gradient(#f2f3f5,#f2f3f5);
+    height: 125px;
+    border-radius: 4px 4px 0px 0px;
+    padding: px;
+}
+.profile-down img{
+    margin-left: 32px;
+    height: 150px;
+    border-radius: 100px ;
+    margin-top: -75px;
+    padding: 4px;
+    background-color: white;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: -70px 35px 0px;
+    
+
+}
+.button div{
+    border: 2px solid rgb(212, 208, 208);
+    border-radius: 7px;
+    
+}
+.button div a{
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+    color: black;
+    display: flex;
+    font-weight: 600;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.falink{
+    color: gray;
+    padding: 2px 2px 2px 2px;
+    
+      
+}
+.bluetick{
+    padding-left: 130px;
+}
+.bluetick img{
+    height: 40px;
+    width: 40px;
+    margin-top: -80px;
+    margin-left: 28px;
+    display: flex;
+    padding: 0px;
+}
+.profile-tittle{
+    margin: 5px 35px 0px 35px;
+    line-height: 0.5px;
+    padding-top: 43px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f2f3f5;
+}
+.profile-tittle .tittle{
+    font-weight: bold;
+}
+.profile-tittle p a{
+    text-decoration: none;
+    color: #374151;
+}
+.fieldbox{
+    
+
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 35px 30px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f2f3f5;
+
+}
+.name div{
+    display: flex;
+    gap: 8px;
+
+}
+.inputfield{
+    height: 40px;
+}
+ .profilename{
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 4px;
+    height: 40px;
+    width: 301px;
+}
+.emailfield{
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 4px;
+    height: 40px;
+    width: 580px;
+    padding-left: 41px;
+}
+.emailIcon{
+    position: absolute;
+    margin-left: 13px;
+    padding: 13px 0px 0px 5px
+
+}
+.userfield{
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 4px;
+    height: 40px;
+    width: 618px;
+}
+
+.profilesection{
+    display: flex;
+    margin: 30px 35px 30px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f2f3f5;
+
+}
+.profile{
+    display: flex;
+    gap: 6px;
+    margin-left: 680px;
+    margin-top: -75px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo{
+    height: 98px;
+    border-radius: 100px ;
+    margin-top: 52px;
+}
+.replacebottom{
+ padding-top: 120px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.trash-button{
+    color: red;
+    padding: 4px;
+    outline: none;
+    border-radius: 4px;
+}
+.bottom{
+    display: flex;
+    gap: 5px;
+}
+.bottom input{
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 4px;
+}

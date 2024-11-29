@@ -1,0 +1,9 @@
+.input-field{
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 6px;
+    height: 40px;
+    width: 325px;
+}
+input:focus{
+    outline: none;
+}
