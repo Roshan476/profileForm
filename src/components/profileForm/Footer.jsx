@@ -12,8 +12,8 @@ const Footer = ({ handleSave }) => {
         </button>
       </div>
       <div className="bottom">
-        <button className="cancel-button">Cancel</button>
-        <button className="save-button" onClick={handleSave}>
+        <button className="cancelsavebutton">Cancel</button>
+        <button className="cancelsavebutton" onClick={handleSave}>
           Save changes
         </button>
       </div>

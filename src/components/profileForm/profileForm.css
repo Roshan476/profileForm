@@ -10,11 +10,12 @@
     border-radius: 4px 4px 0px 0px;
     padding: px;
 }
+.profile-down{}
 .profile-down img{
     margin-left: 32px;
     height: 150px;
     border-radius: 100px ;
-    margin-top: -75px;
+    margin-top: -138px;
     padding: 4px;
     background-color: white;
 }
@@ -22,7 +23,7 @@
     display: flex;
     gap: 10px;
     justify-content: flex-end;
-    margin: -70px 35px 0px;
+    padding: 26px 35px 0px;
     
 
 }
@@ -61,11 +62,10 @@
     padding: 0px;
 }
 .profile-tittle{
-    margin: 5px 35px 0px 35px;
+    margin: 5px 35px 0px 0px;
     line-height: 0.5px;
     padding-top: 43px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #f2f3f5;
 }
 .profile-tittle .tittle{
     font-weight: bold;
@@ -90,9 +90,8 @@
 }
 .name div{
     display: flex;
-    gap: 8px;
-
-}
+        gap: 8px;
+    }
 .inputfield{
     height: 40px;
 }
@@ -101,6 +100,11 @@
     border-radius: 4px;
     height: 40px;
     width: 301px;
+    padding-left: 30px;
+}
+.com-name{
+    position: absolute;
+    padding: 11px;
 }
 .emailfield{
     border: 2px solid rgb(201, 199, 199);
@@ -122,14 +126,18 @@
     width: 618px;
 }
 
-.profilesection{
+.profileSection{
     display: flex;
-    margin: 30px 35px 30px 35px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding-bottom: 30px;
+    gap: 2px;
+    margin-top: -48px;
     border-bottom: 2px solid #f2f3f5;
+    margin-left: 35px;
+    margin-right: 35px;
 
+}
+.profile-change{
+    display: flex ;
+        margin-top: -56px;
 }
 .profile{
     display: flex;
@@ -154,10 +162,11 @@
     padding: 20px;
 }
 .trash-button{
+    border: 1px solid rgb(201, 199, 199);
     color: red;
     padding: 4px;
     outline: none;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 .bottom{
     display: flex;
@@ -168,4 +177,92 @@
     gap: 4px;
     padding: 4px;
     border-radius: 4px;
+}
+.education-entry{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 16px; /* Space between columns */
+
+}
+
+.addEducation{
+  border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 78px;
+}
+.EducationField{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 35px 30px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f2f3f5;
+}
+.education-entry{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+    width: 576px;
+}
+.addskill{
+    height: 24px;
+    border: 1px solid #bdb8b8;
+    border-radius: 5px;
+}
+.education{
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 65px;
+}
+.addremoveskill{
+    height: 23px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+}
+.cancelsavebutton{
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+    outline: none;
+}
+.common{
+    height: 21px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+    width: 189px;
+    padding-left: 27px;
+}
+.common1{
+    position: absolute;
+    padding: 4px;
+}
+.common2{
+    position: absolute;
+    padding: 4px;
+    margin-left: 143px;
+}
+.common3{
+    height: 21px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 5px;
+    width: 189px;
+    padding-left: 29px;
+}
+.common4{
+    position: absolute;
+    margin: 22px 0px 0px -59px;
+}
+.common5{
+    position: absolute;
+    margin: 22px 0px 0px -116px;
+}
+.educationdiv{
+    display: flex
+    ;
+        gap: 27px;
+}
+.error-message{
+    font-size: 10px;
+    color: red;
 }

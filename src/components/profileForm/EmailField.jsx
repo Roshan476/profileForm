@@ -5,7 +5,9 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const EmailField = ({ formData, handleInputChange }) => {
   return (
     <div className="name">
-      Email address
+  <h3>
+        Email address <span style={{ color: 'red' }}>*</span>
+      </h3>
       <div>
         <span className="emailIcon">
           <FontAwesomeIcon icon={faEnvelope} />
